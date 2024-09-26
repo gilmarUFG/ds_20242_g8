@@ -21,7 +21,7 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 
 |Matrícula|Nome|Usuário Git|
 |---|---|---|
-|202201683|ARTHUR NUCADA FELIX DE SOUZA|[<usuario_github>](https://github.com/<usuario_github>)|
+|202201683|ARTHUR NUCADA FELIX DE SOUZA|[Arthurnucada](https://github.com/Arthurnucada)|
 |202201699|JOSÉ ALVES DE OLIVEIRA NETO|[jntlvr](https://github.com/jntlvr)|
 |202201703|LUCAS GABRIEL NUNES ALVES|[Lnunnes](https://github.com/Lnunnes)|
 |202201713|SOPHIA FERNANDES MAGALHÃES ALMEIDA|[sophiafma](https://github.com/sophiafma)|
