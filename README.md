@@ -1,6 +1,7 @@
 # ds_20242_g8
 ### Nome do Projeto:
 ![logotipoChamaAí](https://github.com/user-attachments/assets/c858299b-cc4e-44c1-85b8-7a6dd80048d8)
+
 ### Descrição:
 O **ChamaAí** é um aplicativo mobile desenvolvido para conectar prestadores de serviços gerais a clientes que necessitam desses serviços e não sabem como encontrar. Com uma interface intuitiva e um sistema de filtragem baseado na localização e nas especialidades dos prestadores, o aplicativo oferece uma experiência prática e acessível tanto para quem busca serviços como para os profissionais que desejam expandir sua base de clientes. O **ChamaAí** abrange uma ampla gama de serviços, como manutenção residencial, pequenos reparos, serviços de limpeza, entre outros.
 
