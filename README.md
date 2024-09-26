@@ -1,6 +1,6 @@
 # ds_20242_g8
 ### Nome do Projeto:
-![logotipo](https://github.com/user-attachments/assets/14789610-776c-48df-bda1-2c5b01add921)
+![logotipoChamaAí](https://github.com/user-attachments/assets/c858299b-cc4e-44c1-85b8-7a6dd80048d8)
 ### Descrição:
 O **ChamaAí** é um aplicativo mobile desenvolvido para conectar prestadores de serviços gerais a clientes que necessitam desses serviços e não sabem como encontrar. Com uma interface intuitiva e um sistema de filtragem baseado na localização e nas especialidades dos prestadores, o aplicativo oferece uma experiência prática e acessível tanto para quem busca serviços como para os profissionais que desejam expandir sua base de clientes. O **ChamaAí** abrange uma ampla gama de serviços, como manutenção residencial, pequenos reparos, serviços de limpeza, entre outros.
 
@@ -29,12 +29,12 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 
 ### Backlog do Produto
 
-1. RF001 - <Descrição do Requisito>.
-2. RF002 - <Descrição do Requisito>.
-3. RF003 - <Descrição do Requisito>.
-4. RF004 - <Descrição do Requisito>.
-5. RF005 - <Descrição do Requisito>.
-6. RF006 - <Descrição do Requisito>.
+1. RF001 - O sistema deve permitir que o prestador de serviços realize seu cadastro, fornecendo informações como nome completo, número de telefone válido, endereço, especialidades e disponibilidade de horários.
+2. RF002 - O sistema deve permitir que o cliente realize seu cadastro, fornecendo informações como nome completo, endereço, número de telefone válido, e uma forma de pagamento válida. 
+3. RF003 - O sistema deve permitir que tanto prestadores de serviços quanto clientes realizem login utilizando autenticação de dois fatores, sendo um deles a senha e o outro um código enviado via e-mail.
+4. RF004 - O sistema deve permitir que o cliente pesquise prestadores de serviços com base na localidade e na especialidade desejada, retornando uma lista de profissionais disponíveis.
+5. RF005 - O sistema deve permitir que o cliente agende um serviço com um prestador, escolhendo a data e horário desejados, conforme a disponibilidade apresentada pelo prestador de serviços.
+6. RF006 - O sistema deve permitir que o cliente avalie o prestador de serviços após a conclusão do serviço, utilizando uma escala de 1 a 5 estrelas, e adicionando um comentário opcional.
 
 ### Requisitos Não Funcionais
 
