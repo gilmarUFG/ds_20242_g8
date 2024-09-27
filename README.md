@@ -48,11 +48,10 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 7. RNF007 - Conectividade: <Descrição do Requisito não Funcional>.
 
 ### Regras de Negócio
-1. RN01 - <Descrição da Regra de Negócio>.
-2. RN02 - <Descrição da Regra de Negócio>.
-3. RN03 - <Descrição da Regra de Negócio>.
-4. RN04 - <Descrição da Regra de Negócio>.
-5. RN05 - <Descrição da Regra de Negócio>.
+1. RN01 - O sistema deve restringir o registro a uma conta por usuário.
+2. RN02 - Caso um usuário não consiga confirmar suas informações de cadastro, este não poderá acessar o sistema, e o cadastro deverá ser excluído após uma semana.
+3. RN03 - Um prestador de serviços não poderá ter dois agendamentos para um único horário (overbooking).
+4. RN04 - Caso um prestador não compareça ao local para prestar os serviços por três vezes, em dias diferentes, este deve ser suspenso da plataforma.
 
 ### Modelo Arquitetural
 <Apresentar uma descrição sucinta do modelo arquitetural do Produto.>
