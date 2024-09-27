@@ -38,7 +38,7 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 6. RF006 - O sistema deve permitir que o cliente avalie o prestador de serviços após a conclusão do serviço, utilizando uma escala de 1 a 5 estrelas, e adicionando um comentário opcional.
 7. RF007 - O sistema deve permitir que o prestador de serviços visualize a lista de serviços agendados, com informações sobre o cliente, data, horário e local do serviço.
 8. RF008 - O sistema deve permitir que o prestador de serviços confirme ou cancele um serviço agendado.
-9. RF009 - O sistema deverá permitirque o cliente confirme ou cancele um serviço agendado.
+9. RF009 - O sistema deverá permitir que o cliente confirme ou cancele um serviço agendado.
 
 
 ### Requisitos Não Funcionais
@@ -59,7 +59,7 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 5. RN05 - O sistema deve validar a existência e a veracidade das informações de cadastro, como CPF/CNPJ.
 6. RN06 - O sistema deve permitir que o usuário altere sua senha a qualquer momento, seguindo políticas de segurança como a exigência de caracteres especiais, números e letras maiúsculas e minúsculas.
 7. RN07 - O sistema deve permitir que o cliente avalie um serviço apenas uma vez.
-8. RN8 - O sistema deve permitir que o cliente cancele um serviço agendado com antecedência mínima de 24 horas.
+8. RN08 - O sistema deve permitir que o cliente cancele um serviço agendado com antecedência mínima de 24 horas.
 
 ### Modelo Arquitetural
 O sistema consistirá em um client web que se comunicará com uma API REST que atuará como backend (arquitetura cliente-servidor);  
