@@ -56,7 +56,7 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 2. RN02 - Caso um usuário não consiga confirmar suas informações de cadastro, este não poderá acessar o sistema, e o cadastro deverá ser excluído após uma semana.
 3. RN03 - Um prestador de serviços não poderá ter dois agendamentos para um único horário (overbooking).
 4. RN04 - Caso um prestador não compareça ao local para prestar os serviços por três vezes, em dias diferentes, este deve ser suspenso da plataforma.
-5. RN05 - O sistema deve validar a existência e a veracidade das informações de cadastro, como CPF/CNPJ;
+5. RN05 - O sistema deve validar a existência e a veracidade das informações de cadastro, como CPF/CNPJ.
 6. RN06 - O sistema deve permitir que o usuário altere sua senha a qualquer momento, seguindo políticas de segurança como a exigência de caracteres especiais, números e letras maiúsculas e minúsculas.
 7. RN07 - O sistema deve permitir que o cliente avalie um serviço apenas uma vez.
 8. RN8 - O sistema deve permitir que o cliente cancele um serviço agendado com antecedência mínima de 24 horas.
