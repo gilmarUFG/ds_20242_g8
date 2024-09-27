@@ -54,7 +54,8 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 4. RN04 - Caso um prestador não compareça ao local para prestar os serviços por três vezes, em dias diferentes, este deve ser suspenso da plataforma.
 
 ### Modelo Arquitetural
-<Apresentar uma descrição sucinta do modelo arquitetural do Produto.>
+O sistema consistirá em um client web que se comunicará com uma API REST que atuará como backend (arquitetura cliente-servidor);  
+Internamente, o backend seguirá uma arquitetura MVC (Model, View, Controller)
 
 ### Modelo de Interfaces Gráficas
 <Apresentar uma descrição sucinta do modelo de interfaces gráficas do Produto.>
