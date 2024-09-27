@@ -36,6 +36,10 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 4. RF004 - O sistema deve permitir que o cliente pesquise prestadores de serviços com base na localidade e na especialidade desejada, retornando uma lista de profissionais disponíveis.
 5. RF005 - O sistema deve permitir que o cliente agende um serviço com um prestador, escolhendo a data e horário desejados, conforme a disponibilidade apresentada pelo prestador de serviços.
 6. RF006 - O sistema deve permitir que o cliente avalie o prestador de serviços após a conclusão do serviço, utilizando uma escala de 1 a 5 estrelas, e adicionando um comentário opcional.
+7. RF007 - O sistema deve permitir que o prestador de serviços visualize a lista de serviços agendados, com informações sobre o cliente, data, horário e local do serviço.
+8. RF008 - O sistema deve permitir que o prestador de serviços confirme ou cancele um serviço agendado.
+9. RF009 - O sistema deverá permitirque o cliente confirme ou cancele um serviço agendado.
+
 
 ### Requisitos Não Funcionais
 
@@ -52,6 +56,10 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 2. RN02 - Caso um usuário não consiga confirmar suas informações de cadastro, este não poderá acessar o sistema, e o cadastro deverá ser excluído após uma semana.
 3. RN03 - Um prestador de serviços não poderá ter dois agendamentos para um único horário (overbooking).
 4. RN04 - Caso um prestador não compareça ao local para prestar os serviços por três vezes, em dias diferentes, este deve ser suspenso da plataforma.
+5. RN05 - O sistema deve validar a existência e a veracidade das informações de cadastro, como CPF/CNPJ;
+6. RN06 - O sistema deve permitir que o usuário altere sua senha a qualquer momento, seguindo políticas de segurança como a exigência de caracteres especiais, números e letras maiúsculas e minúsculas.
+7. RN07 - O sistema deve permitir que o cliente avalie um serviço apenas uma vez.
+8. RN8 - O sistema deve permitir que o cliente cancele um serviço agendado com antecedência mínima de 24 horas.
 
 ### Modelo Arquitetural
 O sistema consistirá em um client web que se comunicará com uma API REST que atuará como backend (arquitetura cliente-servidor);  
