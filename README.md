@@ -39,7 +39,8 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 7. RF007 - O sistema deve permitir que o prestador de serviços visualize a lista de serviços agendados, com informações sobre o cliente, data, horário e local do serviço.
 8. RF008 - O sistema deve permitir que o prestador de serviços confirme ou cancele um serviço agendado.
 9. RF009 - O sistema deverá permitir que o cliente confirme ou cancele um serviço agendado.
-
+10. RF010 - O sistema deve permitir que o cliente escolha entre diferentes formas de pagamento, como cartão, dinheiro físico ou PIX.
+11. RF011 - O sistema deve permitir que o cliente ao agendar uma visita adicione uma breve descrição sobre o serviço desejado.
 
 ### Requisitos Não Funcionais
 
