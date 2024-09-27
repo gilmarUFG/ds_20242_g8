@@ -43,13 +43,13 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 
 ### Requisitos Não Funcionais
 
-1. RNF001 - Usabilidade: <Descrição do Requisito não Funcional>.
-2. RNF002 - Segurança: <Descrição do Requisito não Funcional>..
-3. RNF003 - Desempenho: <Descrição do Requisito não Funcional>..
-4. RNF004 - Confiabilidade: <Descrição do Requisito não Funcional>.
-5. RNF005 - Manutenibilidade: <Descrição do Requisito não Funcional>.
-6. RNF006 - Portabilidade: <Descrição do Requisito não Funcional>.
-7. RNF007 - Conectividade: <Descrição do Requisito não Funcional>.
+1. RNF001 - Usabilidade: A interface da aplicação com o usuário deve ser intuitiva e de fácil uso, enquanto traz informações relevantes, a fim de prover uma boa experiência de usuário.
+2. RNF002 - Segurança: A aplicação deve ser desenvolvida de forma a evitar vulnerabilidades conhecidas e resguardar adequadamente os dados dos seus usuários, conforme a legislação aplicável.
+3. RNF003 - Desempenho: A aplicação deve apresentar respostas rápidas (em até 2 segundos), de forma a não desestimular o uso por parte dos usuários.
+4. RNF004 - Confiabilidade: A aplicação deve ser disponibilizada de forma tal que permaneça ativa em 99% do tempo e garantir que as informações sejam adequadamente armazenadas e entregues aos respectivos usuários.
+5. RNF005 - Manutenibilidade: A aplicação deve ser implementada de forma que sua manutenção seja viável, e a entrada de novos membros no projeto seja facilitada, principalmente em termos de documentação e boas práticas.
+6. RNF006 - Portabilidade: A aplicação deve poder ser acessada a partir de dispositivos e localidades diversas.
+7. RNF007 - Conectividade: A aplicação pode vir a disponibilizar endpoints de sua API para aplicações externas, de forma a possibilitar a integração com outros sistemas.
 
 ### Regras de Negócio
 1. RN01 - O sistema deve restringir o registro a uma conta por usuário.
