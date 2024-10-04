@@ -20,13 +20,13 @@ Ao fornecer um canal direto, seguro e eficiente entre clientes e prestadores de 
 ### Grupo
 Este projeto será desenvolvido pelos componentes do grupo 8:
 
-|Matrícula|Nome|Usuário Git|
-|---|---|---|
-|202201683|ARTHUR NUCADA FELIX DE SOUZA|[Arthurnucada](https://github.com/Arthurnucada)|
-|202201699|JOSÉ ALVES DE OLIVEIRA NETO|[jntlvr](https://github.com/jntlvr)|
-|202201703|LUCAS GABRIEL NUNES ALVES|[Lnunnes](https://github.com/Lnunnes)|
-|202201713|SOPHIA FERNANDES MAGALHÃES ALMEIDA|[sophiafma](https://github.com/sophiafma)|
-|202204532|VICTOR MARTINS VIEIRA|[<usuario_github>](https://github.com/<usuario_github>)|
+|Matrícula|Nome| Usuário Git                                     |
+|---|---|-------------------------------------------------|
+|202201683|ARTHUR NUCADA FELIX DE SOUZA| [Arthurnucada](https://github.com/Arthurnucada) |
+|202201699|JOSÉ ALVES DE OLIVEIRA NETO| [jntlvr](https://github.com/jntlvr)             |
+|202201703|LUCAS GABRIEL NUNES ALVES| [Lnunnes](https://github.com/Lnunnes)           |
+|202201713|SOPHIA FERNANDES MAGALHÃES ALMEIDA| [sophiafma](https://github.com/sophiafma)       |
+|202204532|VICTOR MARTINS VIEIRA| [vmvuno](https://github.com/vmvuno)              |
 
 ### Backlog do Produto
 
@@ -36,26 +36,34 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 4. RF004 - O sistema deve permitir que o cliente pesquise prestadores de serviços com base na localidade e na especialidade desejada, retornando uma lista de profissionais disponíveis.
 5. RF005 - O sistema deve permitir que o cliente agende um serviço com um prestador, escolhendo a data e horário desejados, conforme a disponibilidade apresentada pelo prestador de serviços.
 6. RF006 - O sistema deve permitir que o cliente avalie o prestador de serviços após a conclusão do serviço, utilizando uma escala de 1 a 5 estrelas, e adicionando um comentário opcional.
+7. RF007 - O sistema deve permitir que o prestador de serviços visualize a lista de serviços agendados, com informações sobre o cliente, data, horário e local do serviço.
+8. RF008 - O sistema deve permitir que o prestador de serviços confirme ou cancele um serviço agendado.
+9. RF009 - O sistema deverá permitir que o cliente confirme ou cancele um serviço agendado.
+
 
 ### Requisitos Não Funcionais
 
-1. RNF001 - Usabilidade: <Descrição do Requisito não Funcional>.
-2. RNF002 - Segurança: <Descrição do Requisito não Funcional>..
-3. RNF003 - Desempenho: <Descrição do Requisito não Funcional>..
-4. RNF004 - Confiabilidade: <Descrição do Requisito não Funcional>.
-5. RNF005 - Manutenibilidade: <Descrição do Requisito não Funcional>.
-6. RNF006 - Portabilidade: <Descrição do Requisito não Funcional>.
-7. RNF007 - Conectividade: <Descrição do Requisito não Funcional>.
+1. RNF001 - Usabilidade: A interface da aplicação com o usuário deve ser intuitiva e de fácil uso, enquanto traz informações relevantes, a fim de prover uma boa experiência de usuário.
+2. RNF002 - Segurança: A aplicação deve ser desenvolvida de forma a evitar vulnerabilidades conhecidas e resguardar adequadamente os dados dos seus usuários, conforme a legislação aplicável.
+3. RNF003 - Desempenho: A aplicação deve apresentar respostas rápidas (em até 2 segundos), de forma a não desestimular o uso por parte dos usuários.
+4. RNF004 - Confiabilidade: A aplicação deve ser disponibilizada de forma tal que permaneça ativa em 99% do tempo e garantir que as informações sejam adequadamente armazenadas e entregues aos respectivos usuários.
+5. RNF005 - Manutenibilidade: A aplicação deve ser implementada de forma que sua manutenção seja viável, e a entrada de novos membros no projeto seja facilitada, principalmente em termos de documentação e boas práticas.
+6. RNF006 - Portabilidade: A aplicação deve poder ser acessada a partir de dispositivos e localidades diversas.
+7. RNF007 - Conectividade: A aplicação pode vir a disponibilizar endpoints de sua API para aplicações externas, de forma a possibilitar a integração com outros sistemas.
 
 ### Regras de Negócio
-1. RN01 - <Descrição da Regra de Negócio>.
-2. RN02 - <Descrição da Regra de Negócio>.
-3. RN03 - <Descrição da Regra de Negócio>.
-4. RN04 - <Descrição da Regra de Negócio>.
-5. RN05 - <Descrição da Regra de Negócio>.
+1. RN01 - O sistema deve restringir o registro a uma conta por usuário.
+2. RN02 - Caso um usuário não consiga confirmar suas informações de cadastro, este não poderá acessar o sistema, e o cadastro deverá ser excluído após uma semana.
+3. RN03 - Um prestador de serviços não poderá ter dois agendamentos para um único horário (overbooking).
+4. RN04 - Caso um prestador não compareça ao local para prestar os serviços por três vezes, em dias diferentes, este deve ser suspenso da plataforma.
+5. RN05 - O sistema deve validar a existência e a veracidade das informações de cadastro, como CPF/CNPJ.
+6. RN06 - O sistema deve permitir que o usuário altere sua senha a qualquer momento, seguindo políticas de segurança como a exigência de caracteres especiais, números e letras maiúsculas e minúsculas.
+7. RN07 - O sistema deve permitir que o cliente avalie um serviço apenas uma vez.
+8. RN08 - O sistema deve permitir que o cliente cancele um serviço agendado com antecedência mínima de 24 horas.
 
 ### Modelo Arquitetural
-<Apresentar uma descrição sucinta do modelo arquitetural do Produto.>
+O sistema consistirá em um client web que se comunicará com uma API REST que atuará como backend (arquitetura cliente-servidor);  
+Internamente, o backend seguirá uma arquitetura MVC (Model, View, Controller)
 
 ### Modelo de Interfaces Gráficas
 <Apresentar uma descrição sucinta do modelo de interfaces gráficas do Produto.>
