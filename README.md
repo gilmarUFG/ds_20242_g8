@@ -42,6 +42,7 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 10. RF010 - O sistema deve permitir que o cliente escolha entre diferentes formas de pagamento, como cartão, dinheiro físico ou PIX.
 11. RF011 - O sistema deve permitir que o cliente ao agendar uma visita adicione uma breve descrição sobre o serviço desejado.
 12. RF012 - O sistema deve permitir que tanto prestadores de serviços quanto clientes criem um perfil, inserindo informações como foto de perfil, breve descrição sobre suas habilidades (no caso de prestadores) ou preferências de serviço (no caso de clientes), e atualizando dados fornecidos durante o cadastro, como telefone e endereço.
+13. RF013 - O sistema deve permitir que tanto prestadores de serviços quanto clientes atualizem seus perfis a qualquer momento, alterando dados como nome, telefone, endereço, forma de pagamento (para clientes) ou especialidades e disponibilidade (para prestadores de serviços), além de adicionar ou remover uma foto de perfil.
 
 ### Requisitos Não Funcionais
 
