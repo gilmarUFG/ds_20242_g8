@@ -39,7 +39,10 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 7. RF007 - O sistema deve permitir que o prestador de serviços visualize a lista de serviços agendados, com informações sobre o cliente, data, horário e local do serviço.
 8. RF008 - O sistema deve permitir que o prestador de serviços confirme ou cancele um serviço agendado.
 9. RF009 - O sistema deverá permitir que o cliente confirme ou cancele um serviço agendado.
-
+10. RF010 - O sistema deve permitir que o cliente escolha entre diferentes formas de pagamento, como cartão, dinheiro físico ou PIX.
+11. RF011 - O sistema deve permitir que o cliente ao agendar uma visita adicione uma breve descrição sobre o serviço desejado.
+12. RF012 - O sistema deve permitir que tanto prestadores de serviços quanto clientes criem um perfil, inserindo informações como foto de perfil, breve descrição sobre suas habilidades (no caso de prestadores) ou preferências de serviço (no caso de clientes), e atualizando dados fornecidos durante o cadastro, como telefone e endereço.
+13. RF013 - O sistema deve permitir que tanto prestadores de serviços quanto clientes atualizem seus perfis a qualquer momento, alterando dados como nome, telefone, endereço, forma de pagamento (para clientes) ou especialidades e disponibilidade (para prestadores de serviços), além de adicionar ou remover uma foto de perfil.
 
 ### Requisitos Não Funcionais
 
