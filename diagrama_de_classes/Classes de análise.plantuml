@@ -1,0 +1,32 @@
+
+@startuml
+
+class Usuario 
+abstract Funcao
+class Contratante 
+class PrestadorDeServicos 
+enum Especializacao 
+class Trabalho 
+enum Status 
+class Avaliacao
+enum Nota
+class Orcamento
+class ItemDeReparo 
+class Imagem 
+
+Usuario -- Imagem : possui avatar >
+Usuario -- Funcao : tem >
+Funcao  <|-- Contratante
+Funcao <|-- PrestadorDeServicos
+PrestadorDeServicos -- Especializacao : tem >
+Trabalho *-- Avaliacao : possui >
+Trabalho -- Status: possui >
+Avaliacao -- Nota : possui >
+Usuario -- Trabalho : solicita >
+Usuario -- Trabalho : executa >
+Usuario -- Orcamento : gera >
+Orcamento -- Trabalho : relativo a >
+Orcamento *-- ItemDeReparo : se refere a >
+Trabalho *-- Imagem : detalhado por >
+
+@enduml

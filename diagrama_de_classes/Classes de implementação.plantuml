@@ -1,0 +1,112 @@
+@startuml
+
+class Usuario {
+    -nome: String
+    -hashSenha: String
+    -dataCadastro: Datetime
+    -endereco: String
+    -ativo: Boolean
+    -emailVerificado: Boolean
+    +criarUsuario(nome, hashSenha, endereco)
+    +enviarEmaildeVerificacao()
+    +desabilitarUsuario()
+    +alterarSenha(hashSenhaAntiga, hashNovaSenha)
+    +alterarImagem(novaUrl)
+    +autenticar(email, hashSenha)
+}
+
+abstract Funcao{
+    -avaliacaoMedia: Double
+    -tempoMedioDeResposta: Double
+    +calcularMetricas()
+}
+
+class Contratante {
+}
+
+class PrestadorDeServicos {
+    -atendeADomicilio: Boolean
+    +incluirEspecializacao(especializacao)
+    +removerEspecializacao(especializacao)
+}
+
+enum Especializacao {
+    ENCANADOR
+    ELETRICISTA
+    PEDREIRO
+    PAISAGISTA
+    MECANICO
+    BORRACHEIRO
+    }
+
+class Trabalho {
+    -dataCriacao: Datetime
+    -endereco: String
+    -dataInicio: Datetime
+    -dataFinalizacao: Datetime
+    +adicionarImagem(Imagem)
+    +avaliar(Avaliacao)
+    +alterarStatus(novoStatus)
+    +anexarOrcamento(Orcamento)
+    +iniciarTrabalho()
+    +concluirTrabalho()
+    +cancelar()
+}
+
+enum Status {
+    CANCELADO_PELO_CONTRATANTE
+    CANCELADO_PELO_PRESTADOR
+    AGUARDANDO
+    EM ANDAMENTO
+    FINALIZADO
+}
+
+class Avaliacao {
+    -comentario: String
+    -data: Datetime
+}
+
+enum Nota {
+    1
+    2
+    3
+    4
+    5
+}
+
+class Orcamento {
+    -data: Datetime
+    -valorTotal: Double
+    -dataRejeicao: Null | Datetime
+    -dataAceite: Null | Datetime
+    +incluirItemDeReparo(ItemDeReparo)
+    +aceitar()
+    +rejeitar()
+}
+
+class ItemDeReparo {
+    -descricao: String
+    -valor: Double
+    -validade: Datetime
+}
+
+class Imagem {
+    -caminho: URL
+}
+
+Usuario "1" --> "1" Imagem : possui avatar >
+Usuario "*" --> "1..*" Funcao : tem >
+Funcao  <|-- Contratante
+Funcao <|-- PrestadorDeServicos
+PrestadorDeServicos "1" --> "1..2" Especializacao : tem >
+Trabalho "1" *-- "1" Avaliacao : possui >
+Trabalho "1" --> "1" Status: possui >
+Avaliacao "1" --> "1" Nota : possui >
+Usuario "1" <--> "*" Trabalho : solicita >
+Usuario "1" <--> "*" Trabalho : executa >
+Usuario "1" --> "*" Orcamento : gera >
+Orcamento "1..*" --* "1" Trabalho : relativo a >
+Orcamento "1" *-- "1..*" ItemDeReparo : se refere a >
+Trabalho "1" *-- "1..*" Imagem : detalhado por >
+
+@enduml
