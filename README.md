@@ -64,6 +64,7 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 7. RN07 - O sistema deve permitir que o cliente avalie um serviço apenas uma vez.
 8. RN08 - O sistema deve permitir que o cliente cancele um serviço agendado com antecedência mínima de 24 horas.
 9. RN09 - O sistema deve validar a senha inserida no cadastro do usuário, verificando se a senha possui 6 caracteres no mínimo, com um número e um caractere especial no mínimo.
+10. RN10 - O sistema deve permitir que o usuário oculte ou deixe sua senha visível enquanto faz login
 
 ### Modelo Arquitetural
 O sistema consistirá em um client web que se comunicará com uma API REST que atuará como backend (arquitetura cliente-servidor);  
