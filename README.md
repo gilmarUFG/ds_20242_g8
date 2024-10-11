@@ -32,7 +32,7 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 
 1. RF001 - O sistema deve permitir que o prestador de serviços realize seu cadastro, fornecendo informações como nome completo, e-mail válido, senha, número de telefone válido, endereço, especialidades e disponibilidade de horários.
 2. RF002 - O sistema deve permitir que o cliente realize seu cadastro, fornecendo informações como nome completo, e-mail válido, senha, endereço e número de telefone válido.
-3. RF003 - O sistema deve permitir que tanto prestadores de serviços quanto clientes realizem login utilizando autenticação de dois fatores, sendo um deles a senha e o outro um código enviado via e-mail.
+3. RF003 - O sistema deve permitir que tanto prestadores de serviços quanto clientes realizem login utilizando autenticação com e-mail e senha.
 4. RF004 - O sistema deve permitir que o cliente pesquise prestadores de serviços com base na localidade e na especialidade desejada, retornando uma lista de profissionais disponíveis.
 5. RF005 - O sistema deve permitir que o cliente agende um serviço com um prestador, escolhendo a data e horário desejados, conforme a disponibilidade apresentada pelo prestador de serviços.
 6. RF006 - O sistema deve permitir que o cliente avalie o prestador de serviços após a conclusão do serviço, utilizando uma escala de 1 a 5 estrelas, e adicionando um comentário opcional.
