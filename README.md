@@ -30,9 +30,9 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 
 ### Backlog do Produto
 
-1. RF001 - O sistema deve permitir que o prestador de serviços realize seu cadastro, fornecendo informações como nome completo, número de telefone válido, endereço, especialidades e disponibilidade de horários.
-2. RF002 - O sistema deve permitir que o cliente realize seu cadastro, fornecendo informações como nome completo, endereço, número de telefone válido, e uma forma de pagamento válida. 
-3. RF003 - O sistema deve permitir que tanto prestadores de serviços quanto clientes realizem login utilizando autenticação de dois fatores, sendo um deles a senha e o outro um código enviado via e-mail.
+1. RF001 - O sistema deve permitir que o prestador de serviços realize seu cadastro, fornecendo informações como nome completo, e-mail válido, senha, número de telefone válido, endereço, especialidades e disponibilidade de horários.
+2. RF002 - O sistema deve permitir que o cliente realize seu cadastro, fornecendo informações como nome completo, e-mail válido, senha, endereço e número de telefone válido.
+3. RF003 - O sistema deve permitir que tanto prestadores de serviços quanto clientes realizem login utilizando autenticação com e-mail e senha.
 4. RF004 - O sistema deve permitir que o cliente pesquise prestadores de serviços com base na localidade e na especialidade desejada, retornando uma lista de profissionais disponíveis.
 5. RF005 - O sistema deve permitir que o cliente agende um serviço com um prestador, escolhendo a data e horário desejados, conforme a disponibilidade apresentada pelo prestador de serviços.
 6. RF006 - O sistema deve permitir que o cliente avalie o prestador de serviços após a conclusão do serviço, utilizando uma escala de 1 a 5 estrelas, e adicionando um comentário opcional.
@@ -59,17 +59,21 @@ Este projeto será desenvolvido pelos componentes do grupo 8:
 2. RN02 - Caso um usuário não consiga confirmar suas informações de cadastro, este não poderá acessar o sistema, e o cadastro deverá ser excluído após uma semana.
 3. RN03 - Um prestador de serviços não poderá ter dois agendamentos para um único horário (overbooking).
 4. RN04 - Caso um prestador não compareça ao local para prestar os serviços por três vezes, em dias diferentes, este deve ser suspenso da plataforma.
-5. RN05 - O sistema deve validar a existência e a veracidade das informações de cadastro, como CPF/CNPJ.
+5. RN05 - O sistema deve validar a existência e a veracidade das informações de cadastro, como e-mail e endereço inseridos.
 6. RN06 - O sistema deve permitir que o usuário altere sua senha a qualquer momento, seguindo políticas de segurança como a exigência de caracteres especiais, números e letras maiúsculas e minúsculas.
 7. RN07 - O sistema deve permitir que o cliente avalie um serviço apenas uma vez.
 8. RN08 - O sistema deve permitir que o cliente cancele um serviço agendado com antecedência mínima de 24 horas.
+9. RN09 - O sistema deve validar a senha inserida no cadastro do usuário, verificando se a senha possui 6 caracteres no mínimo, com um número e um caractere especial no mínimo.
+10. RN10 - O sistema deve permitir que o usuário oculte ou deixe sua senha visível enquanto faz login
 
 ### Modelo Arquitetural
 O sistema consistirá em um client web que se comunicará com uma API REST que atuará como backend (arquitetura cliente-servidor);  
 Internamente, o backend seguirá uma arquitetura MVC (Model, View, Controller)
 
 ### Modelo de Interfaces Gráficas
-<Apresentar uma descrição sucinta do modelo de interfaces gráficas do Produto.>
+As interfaces gráficas do nosso projeto serão desenvolvidas através de um protótipo que será incrementado a cada iteração e será produzido por meio da ferramenta de prototipação Figma.
+
+Segue o link para o protótipo: https://www.figma.com/proto/xrpuoQAw7OBPHHOgdkP9j8/ChamaA%C3%AD?node-id=9-25&node-type=canvas&t=n8gsqDkjlyqatheY-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A25
 
 ### Tecnologia de Persistência de Dados
 <Apresentar uma descrição sucinta do modelo de persistência do Produto.>
