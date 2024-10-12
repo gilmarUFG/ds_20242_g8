@@ -71,7 +71,9 @@ O sistema consistirá em um client web que se comunicará com uma API REST que a
 Internamente, o backend seguirá uma arquitetura MVC (Model, View, Controller)
 
 ### Modelo de Interfaces Gráficas
-<Apresentar uma descrição sucinta do modelo de interfaces gráficas do Produto.>
+As interfaces gráficas do nosso projeto serão desenvolvidas através de um protótipo que será incrementado a cada iteração e será produzido por meio da ferramenta de prototipação Figma.
+
+Segue o link para o protótipo: https://www.figma.com/proto/xrpuoQAw7OBPHHOgdkP9j8/ChamaA%C3%AD?node-id=9-25&node-type=canvas&t=n8gsqDkjlyqatheY-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A25
 
 ### Tecnologia de Persistência de Dados
 <Apresentar uma descrição sucinta do modelo de persistência do Produto.>
